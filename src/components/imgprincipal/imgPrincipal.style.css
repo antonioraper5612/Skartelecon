@@ -1,0 +1,13 @@
+
+
+.content-img {
+    margin-top: 30px;
+    width: 100%;
+    height: 150px;
+  background-image: url('../../Img/fibra-optica-internet.jpg');
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position:center;
+ background-attachment:fixed;
+}
+

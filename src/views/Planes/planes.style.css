@@ -1,0 +1,106 @@
+.container-title {
+  margin-top: 60px;
+text-align: center;
+letter-spacing: 1px;
+}
+
+.container-title h2{
+  font-size: 2rem;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.container-title p{
+  margin-bottom: 60px;
+}
+
+
+/* IMAGENES Y ANIMACION */
+
+.container-content-rendimiento {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 0px;
+  
+}
+
+
+.content-redimiento {
+  width: 45%;
+}
+
+.spiner {
+  border: 4px solid rgb(0, 0, 0, 0.1);
+  width: 136px;
+  height: 136px;
+  border-radius: 50%;
+  animation: spin 1s;
+  animation-iteration-count: normal;
+}
+.spiner img {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 30%;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Descripcion de Planes */
+
+.container-content-plan {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 150px;
+}
+
+.content-plan {
+  width: 28%;
+  text-align: center;
+  -webkit-box-shadow: -3px 5px 15px 5px rgba(0, 0, 0, 0.45);
+  box-shadow: -3px 5px 15px 5px rgba(0, 0, 0, 0.45);
+
+}
+.content-plan img {
+    width: 90%;
+  }
+
+.content-plan h2 {
+  margin-bottom: 20px;
+  font-weight: 400;
+
+}
+
+.content-plan p {
+  margin-bottom: 20px;
+  color: rgb(88, 81, 81);
+}
+.content-plan hr {
+  width: 60%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.content-plan span {
+  font-size: 2rem;
+  color: rgb(88, 81, 81);
+}
+
+.content-plan button{
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #25A9F9;
+    margin-bottom: 30px;
+}

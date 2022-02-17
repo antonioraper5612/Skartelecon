@@ -1,0 +1,37 @@
+.container-contact{
+    width: 50%;
+    margin-top: 60px;
+    display: flex;
+}
+
+.contact{
+    margin-top: 40px;
+}
+
+.contact h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.contact p {
+    margin-bottom: 20px;
+    color: rgb(199, 188, 188);
+}
+
+.contact hr {
+    margin-bottom: 20px;
+}
+
+.contact span {
+   display: flex;
+   align-items: center;
+    
+}
+
+.contact-detail img{
+   width: 8%;
+   padding:10px;
+}
+
+
