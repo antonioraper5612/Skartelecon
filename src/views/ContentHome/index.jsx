@@ -18,8 +18,7 @@ const navigate=useNavigate()
     } 
 
 const hadlewhatsapp= async()=>{
-    await axios.get('https://api.whatsapp.com/send?phone=+573045528655')
- 
+await axios.get('https://wa.me/3013454435')    
  }
     return (
         <section className='img-Font'>
