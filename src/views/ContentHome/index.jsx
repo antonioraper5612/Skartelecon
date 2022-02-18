@@ -27,7 +27,7 @@ const ContentHome = () => {
             }
         }
 
-        await axios.POST('https://wa.me/3013454435', config)
+        await axios.GET('https://wa.me/3013454435', config)
     }
     return (
         <section className='img-Font'>
