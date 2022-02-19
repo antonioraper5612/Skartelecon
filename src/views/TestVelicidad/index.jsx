@@ -14,8 +14,6 @@ const TestVelocidad = () => {
       <ImgPrincipal />
       <Iframe 
       src="https://skartelecontest.speedtestcustom.com"
-        width="100%"
-        height="650px"
         className='container container-test'
        />
        

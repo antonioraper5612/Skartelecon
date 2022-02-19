@@ -6,14 +6,14 @@ import './home.style.css'
 
 const Home = () => {
 
-    
+
   return (
-      <>
+    <>
       <main>
-      <Header/>
-      <ContentHome/>
+        <Header />
+        <ContentHome />
       </main>
-      </>
+    </>
   )
 }
 

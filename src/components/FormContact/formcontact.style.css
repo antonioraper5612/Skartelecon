@@ -38,3 +38,16 @@
     width: 50%;
     margin: auto;
 }
+
+@media only screen and (max-width: 380px) {
+    .container-form{
+        position:relative;
+        left: 0;
+        width: 95%;
+        margin:20px auto;
+    }
+    .container-form button{
+        width: 60%;
+        margin: 10px auto;
+    }
+}

@@ -1,5 +1,14 @@
-.container-test{
-    margin-top: 40px;
-    margin-bottom: 40px;
+.container-test {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 100%;
+  height: 650px;
+}
 
+@media only screen and (max-width: 380px) {
+    .container-test {
+   
+        width: 100%;
+        height: 250px;
+      }
 }
