@@ -71,9 +71,10 @@ margin-top: 5px;
     }
     .section-title p{
         font-size: 1rem;
+        width: 80%;
     }
     .section-title button{
-      margin-top: 50px;
+      margin-top: 130px;
     }
     .container-redes{
         padding: 10px;

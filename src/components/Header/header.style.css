@@ -1,103 +1,184 @@
-
-.main-header{
-    margin: auto;
-    margin-top: 10px;
-    height: 20%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.main-header {
+  margin: auto;
+  margin-top: 10px;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.containe-logo{
-    width: 30%;
-    display: flex;
-    align-items: center;
+.containe-logo {
+  width: 30%;
+  display: flex;
+  align-items: center;
 }
 
-.containe-logo h2{
-    width: 15%;
-    margin-left: 10px;
+.containe-logo h2 {
+  width: 15%;
+  margin-left: 10px;
 }
 
-.containe-logo img{
-    width: 15%;
+.containe-logo img {
+  width: 15%;
 }
 
-li{
-    list-style: none;
-}
-
-
-.link{
- display: flex;
- justify-content: space-between;
- width: 50%;
-}
-
-.link a{
-   position: relative;
-   }
-
-   .link a::before{
-    content: '';
+/* MENU HAMBUGUESA */
+.menu{
     position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 2px;
+    z-index: 999999;
+    top: 15px;
+    right: 20px;
+    display: none;
+    width: 2rem;
+    height: 2rem;
+    justify-content: space-between;
+    flex-flow: column nowrap;
+}
+.menu span{
+    width: 2rem;
+    height: 0.25rem;
     background-color: #25A9F9;
-    z-index: 1;
-    transform: scaleX(0);
-    transform-origin: left;
-    transition:transform 0.5s ease-in-out;
-    }
+    border-radius: 10px;
+    transform-origin: -3.5px;
+    transition: all 1s ease-in-out;
+}
 
-    .link a:hover::before {
-        transform: scaleX(1);
-      }
+.menu .span1close{
+    transform: rotate(45deg);
+}
+
+.menu .span2close{
+    transform: translateX(100%);
+    opacity: 0;
+}
+
+.menu .span3close{
+    transform: rotate(-45deg);
+}
+
+
+li {
+  list-style: none;
+}
+
+.link {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.link a {
+  position: relative;
+}
+
+.link a::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #25a9f9;
+  z-index: 1;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.5s ease-in-out;
+}
+
+.link a:hover::before {
+  transform: scaleX(1);
+}
 
 .link li a {
-    text-decoration: none ;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
-
 
 @media only screen and (max-width: 380px) {
-
-.main-header{
+    .menu{
+        display: flex;
+    }
+  .main-header {
     justify-content: flex-start;
     margin-left: 20px;
-}
-
-    .containe-logo{
-        width: 20%;
-      
-    }
-
-    .containe-logo h2{
-       display: none;
-    }
-
-    .containe-logo img{
-        width: 100%;
-     }
-
-    .link {
-        flex-direction: column;
-        width: 100%;
-        height: 200px;
-        display: none;
-        position: absolute;
-        top: 0;
-        right: 0;
-        background-color: rgb(194, 188, 188);
-   }
-   .link a {
-       padding: 10px;
-   }
-  
+  }
+  .containe-logo {
+    width: 20%;
   }
 
+  .containe-logo h2 {
+    display: none;
+  }
 
+  .containe-logo img {
+    width: 100%;
+  }
+
+  .link {
+    flex-direction: column;
+    width: 75%;
+    height: 100vh;
+    display: flex;
+    justify-content: start;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #222b34;
+    z-index: 999;
+    transform:translateX(300px);
+    transition: all ease-in 0.6s;
+
+  }
+ 
+  .link li {
+    text-align: justify;
+    width: 100%;
+    padding: 10px 45px;
+    margin-top: 20px;
+    color: #fff;
+    border-bottom: 1px solid #383e42;
+  }
+  .link li a {
+    color: #fff;
+  }
+ 
+  .link a::before {
+    background-color: #222b34;
+  }
+
+  .linkopen {
+    flex-direction: column;
+    width: 75%;
+    height: 100vh;
+    display: flex;
+    justify-content: start;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #222b34;
+    z-index: 999;
+    transform:translateX(0px);
+    transition: all ease-in 0.6s;
+
+  }
+
+  .linkopen li {
+    text-align: justify;
+    width: 100%;
+    padding: 10px 45px;
+    margin-top: 20px;
+    color: #fff;
+    border-bottom: 1px solid #383e42;
+  }
+  .linkopen li a {
+    color: #fff;
+    text-decoration: none;
+  }
+ 
+  .linkopen a::before {
+    background-color: #222b34;
+  }
+
+}
 
 

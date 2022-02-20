@@ -63,7 +63,7 @@ const AboutUS = () => {
                     </p>
                 </div>
             </div>
-            <div className='container container-help'>
+            <div className='container-help'>
                 <p>
                     Tienes alguna inquietud?
                     Nuestro heroico equipo de soporte puede ayudarlo.

@@ -30,15 +30,17 @@ const ContentHome = () => {
         await axios.get('https://wa.me/3013454435', config)
     }
     return (
-        <section className='img-Font'>
-            <div className='section-title'>
-                <h2>Nunca un internet fue tan veloz</h2>
-                <p>Si pensaste que el internet de tu negocio o hogar nunca podría ser tan rápido es porque no has probado Skartelecon</p>
-                <button onClick={(e) => handlenavigate(e)}>CAMBIATE YA!!</button>
-                <button onClick={(e) => handlenavigate(e)}>CONTACTANOS</button>
-            </div>
-            <div className='container-redes'>
-                <img src={whatsapp} alt='icon-whatsapp' onClick={hadlewhatsapp} />
+        <section className='container'>
+            <div className='img-Font'>
+                <div className='section-title'>
+                    <h2>Nunca un internet fue tan veloz</h2>
+                    <p>Si pensaste que el internet de tu negocio o hogar nunca podría ser tan rápido es porque no has probado Skartelecon</p>
+                    <button onClick={(e) => handlenavigate(e)}>CAMBIATE YA!!</button>
+                    <button onClick={(e) => handlenavigate(e)}>CONTACTANOS</button>
+                </div>
+                <div className='container-redes'>
+                    <img src={whatsapp} alt='icon-whatsapp' onClick={hadlewhatsapp} />
+                </div>
             </div>
         </section>
     )

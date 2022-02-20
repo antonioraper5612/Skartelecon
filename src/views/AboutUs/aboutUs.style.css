@@ -47,15 +47,13 @@
 
 .container-help{
     display: flex;
-    width: 30%;
+    width: 50%;
     padding: 30px;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
-    margin-bottom: 50px;   
+    margin: 50px auto;
     background-color: #19A1EA;
     border-radius: 5px;
-    margin-bottom: 50px;
 }
 
 .container-help button{
@@ -67,3 +65,17 @@
     cursor: pointer;
 }
 
+
+@media only screen and (max-width: 380px) {
+    .container-content p {
+      width: 80%;
+    }
+    .content{
+        width: 90%;
+    }
+    .container-help{
+        width: 80%;
+        margin: 20px auto;
+        background-color: red;
+    }
+}
