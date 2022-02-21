@@ -16,7 +16,7 @@ const ContentHome = () => {
 
     }
     return (
-        <section className='container img-Font'>
+        <section className='img-Font'>
             <div className='section-title '>
                 <h2>Nunca un internet fue tan veloz</h2>
                 <p>Si pensaste que el internet de tu negocio o hogar nunca podría ser tan rápido es porque no has probado Skartelecon</p>

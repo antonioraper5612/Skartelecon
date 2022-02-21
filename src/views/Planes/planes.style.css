@@ -122,10 +122,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-     background-color: #25a9f9;
    }
    .content-plan{
-     background-color: red;
      width: 40%;
      margin:20px;
     }
