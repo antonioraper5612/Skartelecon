@@ -23,39 +23,38 @@
 }
 
 /* MENU HAMBUGUESA */
-.menu{
-    position: absolute;
-    z-index: 999999;
-    top: 15px;
-    right: 20px;
-    display: none;
-    width: 2rem;
-    height: 2rem;
-    justify-content: space-between;
-    flex-flow: column nowrap;
+.menu {
+  position: absolute;
+  z-index: 999999;
+  top: 15px;
+  right: 20px;
+  display: none;
+  width: 2rem;
+  height: 2rem;
+  justify-content: space-between;
+  flex-flow: column nowrap;
 }
-.menu span{
-    width: 2rem;
-    height: 0.25rem;
-    background-color: #25A9F9;
-    border-radius: 10px;
-    transform-origin: -3.5px;
-    transition: all 1s ease-in-out;
-}
-
-.menu .span1close{
-    transform: rotate(45deg);
+.menu span {
+  width: 2rem;
+  height: 0.25rem;
+  background-color: #25a9f9;
+  border-radius: 10px;
+  transform-origin: -3.5px;
+  transition: all 1s ease-in-out;
 }
 
-.menu .span2close{
-    transform: translateX(100%);
-    opacity: 0;
+.menu .span1close {
+  transform: rotate(45deg);
 }
 
-.menu .span3close{
-    transform: rotate(-45deg);
+.menu .span2close {
+  transform: translateX(100%);
+  opacity: 0;
 }
 
+.menu .span3close {
+  transform: rotate(-45deg);
+}
 
 li {
   list-style: none;
@@ -94,22 +93,24 @@ li {
   color: black;
 }
 
-@media only screen and (max-width: 380px) {
-    .menu{
-        display: flex;
-    }
+
+
+@media only screen and (max-width: 768px) {
+  .menu {
+    display: flex;
+  }
   .main-header {
     justify-content: flex-start;
     margin-left: 20px;
   }
-  .containe-logo {
-    width: 20%;
+  .containe-logo{
+    width: 10%;
+  }
+  .containe-logo img{
+    width: 10%;
   }
 
-  .containe-logo h2 {
-    display: none;
-  }
-
+ 
   .containe-logo img {
     width: 100%;
   }
@@ -125,11 +126,10 @@ li {
     right: 0;
     background-color: #222b34;
     z-index: 999;
-    transform:translateX(300px);
+    transform: translateX(650px);
     transition: all ease-in 0.6s;
-
   }
- 
+
   .link li {
     text-align: justify;
     width: 100%;
@@ -141,7 +141,7 @@ li {
   .link li a {
     color: #fff;
   }
- 
+
   .link a::before {
     background-color: #222b34;
   }
@@ -157,9 +157,8 @@ li {
     right: 0;
     background-color: #222b34;
     z-index: 999;
-    transform:translateX(0px);
+    transform: translateX(0px);
     transition: all ease-in 0.6s;
-
   }
 
   .linkopen li {
@@ -174,11 +173,35 @@ li {
     color: #fff;
     text-decoration: none;
   }
- 
+
   .linkopen a::before {
     background-color: #222b34;
   }
+}
+
+@media only screen and (max-width: 435px) {
+   
+  .menu{
+    top:5px;
+  }
 
 }
+
+@media only screen and (max-width: 380px) {
+   
+  .menu{
+    top:15px;
+  }
+ .containe-logo h2{
+   display: none;
+ }
+ .containe-logo{
+  width: 20%;
+}
+
+}
+
+
+  
 
 

@@ -1,81 +1,106 @@
-
-
-.container-content{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 50px;
-}
-
-.container-content h2{
-    margin-bottom: 30px;
-    font-weight: 400;
-}
-
-.container-content p{
-    text-align: center;
-    letter-spacing: 1px;
-    line-height: 1.5em;
-    color: #b4aaaa;
-   
-}
-
-.container-content-mision{
+.container-content {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+  width: 90%;
+}
+
+.container-content h2 {
+  margin-bottom: 30px;
+  font-weight: 400;
+}
+
+p{
+  text-align: center;
+  letter-spacing: 1px;
+  line-height: 1.1em;
+  color: #b4aaaa;
+
+}
+
+
+
+.container-content-mision {
+  display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   margin-top: 50px;
+  width: 100%;
 }
 
-.content{
-    width: 50%;
-    padding: 0 15px;
+.content {
+  width: 45%;
+  padding: 0 15px;
 }
 
-.content h2{
-    text-align: center;
-    margin:30px 0;
-    font-weight: 400;
+.content h2 {
+  text-align: center;
+  margin: 30px 0;
+  font-weight: 400;
 }
 
-.content p{
-    text-align: justify;
-    color: #b4aaaa;
-    letter-spacing: 1px;
-    line-height: 1.3em;
+.content p {
+  text-align:left
 }
 
-.container-help{
+
+
+.container-help {
+  display: flex;
+  width: 50%;
+  padding: 30px;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto;
+  background-color: #19a1ea;
+  border-radius: 5px;
+}
+
+.container-help p{
+  color: #fff;
+}
+
+.container-help button {
+  padding: 10px;
+  margin-left: 15px;
+  color: #fff;
+  background-color: #2b1dec;
+  border: none;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+  .content {
+    width: 100%;
+  }
+  .content p {
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .container-content p{
+    width: 90%;
+  }
+
+  
+  .container-help {
     display: flex;
-    width: 50%;
-    padding: 30px;
-    justify-content: center;
-    align-items: center;
-    margin: 50px auto;
-    background-color: #19A1EA;
-    border-radius: 5px;
+    width: 90%;
+  }
 }
 
-.container-help button{
-    padding: 10px;
-    margin-left: 15px;
-    color: #fff;
-    background-color: #2b1dec;
-    border: none;
-    cursor: pointer;
-}
-
-
-@media only screen and (max-width: 380px) {
-    .container-content p {
-      width: 80%;
-    }
-    .content{
-        width: 90%;
-    }
-    .container-help{
-        width: 80%;
-        margin: 20px auto;
-        background-color: red;
-    }
+@media only screen and (max-width: 375px) {
+ 
+ 
+  .container-help {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .container-help p {
+    margin-bottom: 20px;
+  }
 }

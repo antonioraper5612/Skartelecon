@@ -12,6 +12,8 @@
 
 .container-title p {
   margin-bottom: 60px;
+  text-align: left;
+
 }
 
 /* IMAGENES Y ANIMACION */
@@ -74,7 +76,7 @@
 }
 
 .content-plan {
-  width: 28%;
+  width: 30%;
   text-align: center;
   -webkit-box-shadow: -3px 5px 15px 5px rgba(0, 0, 0, 0.45);
   box-shadow: -3px 5px 15px 5px rgba(0, 0, 0, 0.45);
@@ -114,8 +116,27 @@
 }
 
 /* Responsi */
-@media only screen and (max-width: 380px) {
+
+@media only screen and (max-width: 768px) {
+   .container-content-plan{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+     background-color: #25a9f9;
+   }
+   .content-plan{
+     background-color: red;
+     width: 40%;
+     margin:20px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
   .container-title {
+    width: 90%;
+  }
+  .container-title p {
+    margin: 40px auto;
     width: 90%;
   }
 
@@ -128,6 +149,12 @@
   }
   .content-plan {
     margin: 10px auto;
-    width: 90%;
+    width: 70%;
   }
 }
+
+@media only screen and (max-width: 325px) {
+  .content-plan {
+    width: 80%;
+  }
+  }
