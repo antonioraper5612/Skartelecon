@@ -64,9 +64,9 @@
   }
 }
 
-@media only screen and (max-width: 525px) {
+@media only screen and (max-width: 720px) {
   .section-title {
-    top: 50px;
+    top: 60px;
     width: 50%;
   }
   .section-title h2 {

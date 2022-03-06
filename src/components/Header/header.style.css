@@ -176,9 +176,9 @@ li {
   }
 }
 
-@media only screen and (max-width: 520px) {
+@media only screen and (max-width: 600px) {
   .menu {
-    top: 5px;
+    top: 7px;
   }
 }
 

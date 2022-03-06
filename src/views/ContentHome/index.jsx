@@ -24,7 +24,7 @@ const ContentHome = () => {
                 <button onClick={(e) => handlenavigate(e)}>CONTACTANOS</button>
             </div>
             <div className='container-redes'>
-                <a href='https://api.whatsapp.com/send?phone=+573013454435&text=Hola...'>
+                <a href='https://api.whatsapp.com/send?phone=+573026704171&text=Hola...'>
                     <img src={whatsapp} alt='icon-whatsapp' />
                 </a>
             </div>
