@@ -1,0 +1,56 @@
+form h2 {
+  text-align: center;
+  width: 90%;
+  margin: 20px;
+}
+
+.content-form-ground {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 90%;
+  margin: 40px;
+  padding: 40px;
+  background-color: rgb(225, 225, 231);
+  border-radius: 20px;
+}
+
+.content-form-ground label {
+  display: flex;
+  width: 25%;
+  text-align: center;
+  flex-direction: column;
+  margin: 13px;
+}
+
+.content-form-ground input {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+}
+
+.content-form-ground select {
+  padding: 10px;
+  margin: 10px 30px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+}
+
+.btn-addUser {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #25a9f9;
+  color: aliceblue;
+  margin: 30px 0;
+}
+
+.container-status {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

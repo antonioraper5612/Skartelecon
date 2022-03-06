@@ -32,10 +32,10 @@ const Contact = () => {
                             <div className='contact-detail'>
                                 <span>
                                     <img src={iconTelefono} alt='TElefono'></img>
-                                    3013454435
+                                    3026704171
                                 </span>
                                 <span>
-                                    <img src={iconEmail} alt='TElefono'></img>
+                                    <img src={iconEmail} alt='Telefono'></img>
                                     Skartelecom@hotmail.com
                                 </span>
                             </div>
@@ -44,7 +44,7 @@ const Contact = () => {
                     </div>
                 </div>
             </section>
-            
+
         </>
     )
 }

@@ -10,11 +10,8 @@ const AboutUS = () => {
 
     const navigate = useNavigate()
 
-    const handlenavigate = ({ target }) => {
-
+    const handlenavigate = () => {
         navigate('/contact')
-
-
     }
 
     return (

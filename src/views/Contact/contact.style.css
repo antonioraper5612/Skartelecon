@@ -44,4 +44,7 @@
   .container {
     width: 90%;
   }
+  .contact-detail img {
+    width: 12%;
+  }
 }
